@@ -4,22 +4,22 @@ version: 0.2.1
 homepage: "https://github.com/kfiross/chat_pickers"
 
 environment:
-  sdk: ">=2.7.0 <3.0.0"
+  sdk: ">=2.8.0 <3.0.0"
 
 dependencies:
   flutter:
     sdk: flutter
 
-  http: ^0.12.1
+  http: ^0.13.0
   giphy_client: ^0.2.0        # for giphy picker
-  shared_preferences: ^0.5.7      # for keeping recent picked emojies
-  material_design_icons_flutter: ^4.0.5345    # for icons
+  shared_preferences: ^2.0.4      # for keeping recent picked emojies
+  material_design_icons_flutter: ^4.0.5955   # for icons
 
   # base package implementation of choosing emojies on each platform
   emoji_picker: ^0.1.0
 
-  flutter_hooks: ^0.10.0
-  universal_io: ^1.0.1    # for work on web
+  flutter_hooks: ^0.16.0
+  universal_io: ^2.0.0    # for work on web
 
 dev_dependencies:
   flutter_test:
